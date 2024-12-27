@@ -1,6 +1,6 @@
 {
   "name": "@cto_of_everything/biome-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Biome config used by the CTO of Everything.",
   "sideEffects": false,
   "type": "module",
@@ -17,7 +17,9 @@
     "update": "bunx npm-check-updates -ui --reject bun",
     "check": "biome check"
   },
-  "files": ["biome.jsonc"],
+  "files": [
+    "biome.jsonc"
+  ],
   "exports": {
     ".": "./biome.jsonc"
   },
