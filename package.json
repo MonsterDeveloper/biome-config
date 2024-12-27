@@ -19,7 +19,7 @@
   },
   "files": ["biome.jsonc"],
   "exports": {
-    "./biome": "./biome.jsonc"
+    ".": "./biome.jsonc"
   },
   "peerDependencies": {
     "@biomejs/biome": "*"
