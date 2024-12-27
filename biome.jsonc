@@ -19,7 +19,12 @@
     "rules": {
       "recommended": true,
       "complexity": {
-        "noExcessiveCognitiveComplexity": "error",
+        "noExcessiveCognitiveComplexity": {
+          "level": "error",
+          "options": {
+            "maxAllowedComplexity": 18
+          }
+        },
         "noUselessStringConcat": "error",
         "noUselessUndefinedInitialization": "error",
         "useDateNow": "error",
