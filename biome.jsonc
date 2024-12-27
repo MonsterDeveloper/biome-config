@@ -4,7 +4,8 @@
     "enabled": false
   },
   "files": {
-    "ignoreUnknown": false
+    "ignoreUnknown": false,
+    "ignore": ["package.json"]
   },
   "formatter": {
     "enabled": true,
