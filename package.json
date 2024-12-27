@@ -1,0 +1,27 @@
+{
+  "name": "@cto-of-everything/biome-config",
+  "version": "0.0.1",
+  "description": "Biome config used by the CTO of Everything.",
+  "sideEffects": false,
+  "type": "module",
+  "packageManager": "bun@1.1.42",
+  "homepage": "https://github.com/MonsterDeveloper/biome-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsterDeveloper/biome-config.git"
+  },
+  "license": "GPL-3.0-only",
+  "author": "Andrei Bobkov <me@ctoofeverything.dev>",
+  "scripts": {
+    "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm"
+  },
+  "files": [
+    "biome.jsonc"
+  ],
+  "exports": {
+    "./biome": "./biome.jsonc"
+  },
+  "dependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}
