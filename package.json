@@ -1,5 +1,5 @@
 {
-  "name": "@cto-of-everything/biome-config",
+  "name": "@cto_of_everything/biome-config",
   "version": "0.0.1",
   "description": "Biome config used by the CTO of Everything.",
   "sideEffects": false,
@@ -13,15 +13,24 @@
   "license": "GPL-3.0-only",
   "author": "Andrei Bobkov <me@ctoofeverything.dev>",
   "scripts": {
-    "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm"
+    "prepare": "husky",
+    "update": "bunx npm-check-updates -ui --reject bun",
+    "check": "biome check"
   },
-  "files": [
-    "biome.jsonc"
-  ],
+  "files": ["biome.jsonc"],
   "exports": {
     "./biome": "./biome.jsonc"
   },
-  "dependencies": {
-    "@biomejs/biome": "^1.9.4"
+  "peerDependencies": {
+    "@biomejs/biome": "*"
+  },
+  "publishConfig": {
+    "provenance": true
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.11",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7"
   }
 }
