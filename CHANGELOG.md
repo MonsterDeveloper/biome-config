@@ -1,5 +1,11 @@
 # @cto_of_everything/biome-config
 
+## 1.1.0
+
+### Minor Changes
+
+- 9b2700e: Remove barrel exports rules & add sorted classes (Tailwind)
+
 ## 1.0.0
 
 ### Major Changes
