@@ -61,6 +61,12 @@
         "noMisplacedAssertion": "error",
         "useAwait": "error",
         "useNumberToFixedDigitsArgument": "error"
+      },
+      "nursery": {
+        "useSortedClasses": {
+          "fix": "safe",
+          "level": "error"
+        }
       }
     }
   },
