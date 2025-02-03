@@ -1,6 +1,6 @@
 {
   "name": "@cto_of_everything/biome-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Biome config used by the CTO of Everything.",
   "sideEffects": false,
   "type": "module",

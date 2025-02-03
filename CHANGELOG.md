@@ -1,5 +1,11 @@
 # @cto_of_everything/biome-config
 
+## 1.1.2
+
+### Patch Changes
+
+- c95ee11: Disable no non-null assertion
+
 ## 1.1.1
 
 ### Patch Changes
