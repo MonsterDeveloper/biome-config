@@ -1,5 +1,11 @@
 # @cto_of_everything/biome-config
 
+## 1.1.1
+
+### Patch Changes
+
+- 6530cf5: Enhance Biome linting rules
+
 ## 1.1.0
 
 ### Minor Changes
