@@ -38,6 +38,14 @@
         "noUnusedPrivateClassMembers": "error",
         "noUnusedVariables": "error"
       },
+      "nursery": {
+        "noCommonJs": "error",
+        "noDocumentCookie": "error",
+        "useSortedClasses": {
+          "fix": "safe",
+          "level": "error"
+        }
+      },
       "performance": {
         "useTopLevelRegex": "error"
       },
@@ -51,22 +59,17 @@
             "syntax": "shorthand"
           }
         },
+        "useConsistentBuiltinInstantiation": "error",
         "useForOf": "error",
         "useFragmentSyntax": "error",
-        "useNamingConvention": "error",
         "useShorthandAssign": "error"
       },
       "suspicious": {
+        "noConsole": "error",
         "noEmptyBlockStatements": "error",
         "noMisplacedAssertion": "error",
         "useAwait": "error",
         "useNumberToFixedDigitsArgument": "error"
-      },
-      "nursery": {
-        "useSortedClasses": {
-          "fix": "safe",
-          "level": "error"
-        }
       }
     }
   },
@@ -82,6 +85,16 @@
         "rules": {
           "style": {
             "noDefaultExport": "off"
+          }
+        }
+      }
+    },
+    {
+      "include": ["*.tsx", "*.jsx"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "useHookAtTopLevel": "error"
           }
         }
       }
