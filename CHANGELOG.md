@@ -1,5 +1,11 @@
 # @cto_of_everything/biome-config
 
+## 1.1.3
+
+### Patch Changes
+
+- 7a72c9c: disable noNonNullAssertion in config
+
 ## 1.1.2
 
 ### Patch Changes
