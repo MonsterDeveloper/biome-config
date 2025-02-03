@@ -50,6 +50,7 @@
         "useTopLevelRegex": "error"
       },
       "style": {
+        "noNonNullAssertion": "info",
         "noDefaultExport": "error",
         "noYodaExpression": "error",
         "useBlockStatements": "error",
