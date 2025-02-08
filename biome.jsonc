@@ -53,7 +53,10 @@
         "noNonNullAssertion": "off",
         "noDefaultExport": "error",
         "noYodaExpression": "error",
-        "useBlockStatements": "error",
+        "useBlockStatements": {
+          "level": "error",
+          "fix": "safe"
+        },
         "useConsistentArrayType": {
           "level": "error",
           "options": {
