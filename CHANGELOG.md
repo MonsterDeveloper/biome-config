@@ -1,5 +1,11 @@
 # @cto_of_everything/biome-config
 
+## 1.1.4
+
+### Patch Changes
+
+- fd650e3: configure useBlockStatements rule with safe fix
+
 ## 1.1.3
 
 ### Patch Changes
