@@ -1,5 +1,11 @@
 # @cto_of_everything/biome-config
 
+## 1.1.5
+
+### Patch Changes
+
+- 3403a31: remove useSimplifiedLogicExpression
+
 ## 1.1.4
 
 ### Patch Changes
