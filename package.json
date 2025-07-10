@@ -4,7 +4,7 @@
   "description": "Biome config used by the CTO of Everything.",
   "sideEffects": false,
   "type": "module",
-  "packageManager": "bun@1.2.2",
+  "packageManager": "bun@1.2.15",
   "homepage": "https://github.com/MonsterDeveloper/biome-config",
   "repository": {
     "type": "git",
@@ -30,9 +30,9 @@
     "provenance": true
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.12",
-    "@commitlint/cli": "^19.7.1",
-    "@commitlint/config-conventional": "^19.7.1",
+    "@changesets/cli": "^2.29.5",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "husky": "^9.1.7"
   }
 }
