@@ -5,14 +5,15 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["package.json"]
+    "includes": ["**", "!**/package.json"]
   },
   "formatter": {
     "enabled": true,
     "indentStyle": "space"
   },
-  "organizeImports": {
-    "enabled": true
+  "assist": {
+    "enabled": true,
+    "actions": { "source": { "organizeImports": "on" } }
   },
   "linter": {
     "enabled": true,
@@ -38,8 +39,6 @@
         "noUnusedVariables": "error"
       },
       "nursery": {
-        "noCommonJs": "error",
-        "noDocumentCookie": "error",
         "useSortedClasses": {
           "fix": "safe",
           "level": "error"
@@ -65,14 +64,16 @@
         "useConsistentBuiltinInstantiation": "error",
         "useForOf": "error",
         "useFragmentSyntax": "error",
-        "useShorthandAssign": "error"
+        "useShorthandAssign": "error",
+        "noCommonJs": "error"
       },
       "suspicious": {
         "noConsole": "error",
         "noEmptyBlockStatements": "error",
         "noMisplacedAssertion": "error",
         "useAwait": "error",
-        "useNumberToFixedDigitsArgument": "error"
+        "useNumberToFixedDigitsArgument": "error",
+        "noDocumentCookie": "error"
       }
     }
   },
@@ -83,7 +84,7 @@
   },
   "overrides": [
     {
-      "include": ["vite.config.ts"],
+      "includes": ["**/vite.config.ts"],
       "linter": {
         "rules": {
           "style": {
@@ -93,7 +94,7 @@
       }
     },
     {
-      "include": ["*.tsx", "*.jsx"],
+      "includes": ["**/*.tsx", "**/*.jsx"],
       "linter": {
         "rules": {
           "correctness": {
