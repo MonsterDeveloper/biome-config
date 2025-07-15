@@ -1,5 +1,11 @@
 # @cto_of_everything/biome-config
 
+## 2.0.0
+
+### Major Changes
+
+- 51b6e99: Biome v2 support
+
 ## 1.1.5
 
 ### Patch Changes
