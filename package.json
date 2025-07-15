@@ -24,7 +24,7 @@
     ".": "./biome.jsonc"
   },
   "peerDependencies": {
-    "@biomejs/biome": "*"
+    "@biomejs/biome": "2"
   },
   "publishConfig": {
     "provenance": true
