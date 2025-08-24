@@ -1,5 +1,11 @@
 # @cto_of_everything/biome-config
 
+## 2.0.1
+
+### Patch Changes
+
+- 593808b: noExplicitAny as error
+
 ## 2.0.0
 
 ### Major Changes
