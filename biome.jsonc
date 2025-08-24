@@ -73,7 +73,8 @@
         "noMisplacedAssertion": "error",
         "useAwait": "error",
         "useNumberToFixedDigitsArgument": "error",
-        "noDocumentCookie": "error"
+        "noDocumentCookie": "error",
+        "noExplicitAny": "error"
       }
     }
   },
